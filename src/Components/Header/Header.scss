@@ -1,0 +1,27 @@
+// Header.scss
+
+@import "../../styles/_mixins.module.scss";
+@import "../../styles/_media-queries.module.scss";
+
+header {
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: block;
+	@include header-footer-background;
+	margin: 0;
+	color: white;
+
+	text-align: center;
+
+	h1 {
+		margin: 0;
+	}
+	h2 {
+		margin: 0;
+		&:before {
+			display: none;
+		}
+	}
+	box-shadow: 0 8px 8px lightgray;
+}

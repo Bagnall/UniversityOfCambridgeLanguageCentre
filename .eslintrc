@@ -1,0 +1,130 @@
+{
+	"extends": "react-app",
+	"rules": {
+		"array-bracket-spacing": [
+			"warn"
+		],
+		"camelcase": [
+			"error",
+			{
+				"allow": [
+					"error_y"
+				]
+			}
+		],
+		"comma-spacing": [
+			"warn"
+		],
+		"no-mixed-spaces-and-tabs": [
+			"warn"
+		],
+		"no-trailing-spaces": [
+			"warn"
+		],
+		"prefer-object-spread": [
+			"warn"
+		],
+		"space-in-parens": [
+			"warn"
+		],
+		"space-infix-ops": [
+			"warn"
+		],
+		// "space-unary-ops": [
+		// 	"words": "warn",
+		// 	"nonwords": "warn"
+		// ],
+		"spaced-comment": [
+			"warn"
+		],
+		"arrow-spacing": [
+			"warn"
+		],
+		"no-const-assign": [
+			"error"
+		],
+		"no-dupe-class-members": [
+			"error"
+		],
+		"no-duplicate-imports": [
+			"error"
+		],
+		"no-var": [
+			"warn"
+		],
+		"prefer-const": [
+			"warn"
+		],
+		"prefer-destructuring": [
+			"warn"
+		],
+		"prefer-numeric-literals": [
+			"warn"
+		],
+		"prefer-template": [
+			"warn"
+		],
+		"no-debugger": [
+			"warn"
+		],
+		"no-console": [
+			"warn"
+		],
+		"no-alert": [
+			"warn"
+		],
+		"no-irregular-whitespace": [
+			"error"
+		],
+		"no-unreachable": [
+			"warn"
+		],
+		"no-multi-spaces": [
+			"warn"
+		],
+		"no-self-assign": [
+			"warn"
+		],
+		"no-self-compare": [
+			"warn"
+		],
+		"no-useless-catch": [
+			"warn"
+		],
+		"vars-on-top": [
+			"warn"
+		],
+		"use-isnan": [
+			"error"
+		],
+		"valid-typeof": [
+			"error"
+		],
+		"eqeqeq": [
+			"error"
+		],
+		"semi": [
+			"warn",
+			"always"
+		],
+		"indent": [
+			"error",
+			"tab",
+			{
+				"SwitchCase": 1
+			}
+		],
+		"no-compare-neg-zero": [
+			"error"
+		],
+		"sort-keys": [
+			"warn"
+		],
+		"sort-imports": [
+			"warn",
+			{
+				"ignoreCase": true
+			}
+		]
+	}
+}
